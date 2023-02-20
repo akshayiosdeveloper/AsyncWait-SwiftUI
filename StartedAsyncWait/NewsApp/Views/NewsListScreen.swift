@@ -23,9 +23,7 @@ struct NewsListScreen: View {
         .task {
            await newsArticleListViewModel.getNewsBy(sourceId: newsSource.id)
         }
-//        .onAppear {
-//            newsArticleListViewModel.getNewsBy(sourceId: newsSource.id)
-//        }
+
         .navigationTitle(newsSource.name)
         }
     }

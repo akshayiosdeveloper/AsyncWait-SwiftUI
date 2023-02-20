@@ -23,17 +23,6 @@ class NewsSourceListViewModel: ObservableObject {
         
     }
     
-    //        Webservice().fetchSources(url: Constants.Urls.sources) { result in
-    //            switch result {
-    //                case .success(let newsSources):
-    //                    DispatchQueue.main.async {
-    //                        self.newsSources = newsSources.map(NewsSourceViewModel.init)
-    //                    }
-    //                case .failure(let error):
-    //                    print(error)
-    //            }
-    //        }
-    
 }
 
 
