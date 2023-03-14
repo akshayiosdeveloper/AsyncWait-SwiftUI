@@ -18,6 +18,7 @@
 		8D0A0905268CFC4B00CC2EC9 /* NewsSourceListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A0904268CFC4B00CC2EC9 /* NewsSourceListScreen.swift */; };
 		8D0A0907268CFC7700CC2EC9 /* NewsSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A0906268CFC7700CC2EC9 /* NewsSource.swift */; };
 		8D0A0909268CFD6700CC2EC9 /* NewsSourceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A0908268CFD6700CC2EC9 /* NewsSourceListViewModel.swift */; };
+		D00EBE9B29A7568B0038B6B8 /* test.sh in Resources */ = {isa = PBXBuildFile; fileRef = D00EBE9A29A7568B0038B6B8 /* test.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		8D0A0904268CFC4B00CC2EC9 /* NewsSourceListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSourceListScreen.swift; sourceTree = "<group>"; };
 		8D0A0906268CFC7700CC2EC9 /* NewsSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSource.swift; sourceTree = "<group>"; };
 		8D0A0908268CFD6700CC2EC9 /* NewsSourceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSourceListViewModel.swift; sourceTree = "<group>"; };
+		D00EBE9A29A7568B0038B6B8 /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = test.sh; path = ../../../../../../../Desktop/test.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			children = (
 				8D0A08FF268CF64D00CC2EC9 /* NewsListScreen.swift */,
 				8D0A0904268CFC4B00CC2EC9 /* NewsSourceListScreen.swift */,
+				D00EBE9A29A7568B0038B6B8 /* test.sh */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00EBE9B29A7568B0038B6B8 /* test.sh in Resources */,
 				8D0A08ED268CDCD100CC2EC9 /* Preview Assets.xcassets in Resources */,
 				8D0A08EA268CDCD100CC2EC9 /* Assets.xcassets in Resources */,
 			);
